@@ -3,11 +3,11 @@
 class Cliente
 {
     // Atributos
-    public function __Contruct(
-        public string $nome = "",
-        public string $sobrenome = "",
-        public string $cpf = ""
-    ) {}
+
+    public string $nome = "";
+    public string $sobrenome = "";
+    public string $cpf = "";
+
 
 
     // Metodos
