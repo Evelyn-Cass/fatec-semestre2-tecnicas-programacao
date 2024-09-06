@@ -21,7 +21,7 @@ class Conta{
     }   
 
     public function getSaldo(){
-        return number_format($this->saldo,2,'.',',');
+        return $this->saldo;
     }
 
     //SETTERS
